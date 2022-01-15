@@ -39,7 +39,7 @@ return `${day} ${date} ${month} ${year}`
       <div className="search-box">
         <input type="text"
         className="search-bar"
-        placeholder='iveskite valstybe...'
+        placeholder='iveskite miesta...'
         onChange={e => setQuery(e.target.value)}
         value={query}
         onKeyPress={search}
